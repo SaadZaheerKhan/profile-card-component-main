@@ -1,0 +1,89 @@
+:root {
+  background-color: hsl(185, 75%, 39%);
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+h1 {
+  margin: 0;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+.top {
+  width: 50%;
+  position: absolute;
+  z-index: -1;
+  top: -40rem;
+  left: -6rem;
+}
+.bottom {
+  width: 50%;
+  position: absolute;
+  z-index: -1;
+  bottom: -40rem;
+  right: -6rem;
+}
+.card__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.card-upper {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.card__profile {
+  background-color: aliceblue;
+  padding: 0.5rem;
+  border-radius: 5rem;
+  margin-bottom: 2rem;
+}
+.card__header {
+  width: 100%;
+  position: relative;
+  bottom: 5rem;
+  text-align: center;
+}
+.card__name {
+  margin-bottom: 1rem;
+}
+span {
+  margin-left: 0.4rem;
+}
+.heading {
+  font-size: 18px;
+}
+.heading-small {
+  font-size: 12px;
+  letter-spacing: 1.3px;
+}
+.heading-bold {
+  font-weight: 700;
+}
+.heading-light {
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+}
+.grid-2x3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+}
